@@ -1,0 +1,190 @@
+text;target;pattern;tag
+Voorbeeld van A. Hendrix. ;Voorbeeld van <PERSOON>. ;1 initial (end with dot) + family name;<PERSOON>
+Voorbeeld van A Hendrix.;Voorbeeld van <PERSOON>. ;1 initial (no dot) + family name;<PERSOON>
+Voorbeeld van A.B. Hendrix. ;Voorbeeld van <PERSOON>. ;2 initials (separated by dots and end with a dot) + family name;<PERSOON>
+Voorbeeld van A. B. Hendrix.;Voorbeeld van <PERSOON>. ;2 initials (separated by dots and whitespace, and end with dot) + family name;<PERSOON>
+Voorbeeld van A B Hendrix.;Voorbeeld van <PERSOON>. ;2 initials (separated by whitespace) + family name;<PERSOON>
+Voorbeeld van AB Hendrix.;Voorbeeld van <PERSOON>. ;2 initials (initials with no spacing) + family name;<PERSOON>
+Voorbeeld van AB. Hendrix.;Voorbeeld van <PERSOON>. ;2 initials (initials with no spacing, and end with a dot) + family name;<PERSOON>
+Voorbeeld van A.B.C. Hendrix. ;Voorbeeld van <PERSOON>. ;3 initials (separated by dots and end with a dot) + family name;<PERSOON>
+Voorbeeld van A. B. C. Hendrix.;Voorbeeld van <PERSOON>. ;3 initials (separated by dots and whitespace, and end with dot) + family name;<PERSOON>
+Voorbeeld van A B C Hendrix.;Voorbeeld van <PERSOON>. ;3 initials (separated by whitespace) + family name;<PERSOON>
+Voorbeeld van ABC Hendrix.;Voorbeeld van <PERSOON>. ;3 initials  (initials with no spacing) + family name;<PERSOON>
+Voorbeeld van ABC. Hendrix.;Voorbeeld van <PERSOON>. ;3 initials (initials with no spacing, and end with a dot) + family name;<PERSOON>
+Voorbeeld van A.B.C.D. Hendrix. ;Voorbeeld van <PERSOON>. ;4 initials (separated by dots and end with a dot) + family name;<PERSOON>
+Voorbeeld van A. B. C. D. Hendrix.;Voorbeeld van <PERSOON>. ;4 initials (separated by dots and whitespace, and end with dot) + family name;<PERSOON>
+Voorbeeld van A B C D Hendrix.;Voorbeeld van <PERSOON>. ;4 initials (separated by whitespace) + family name;<PERSOON>
+Voorbeeld van ABCD Hendrix.;Voorbeeld van <PERSOON>. ;4 initials  (initials with no spacing) + family name;<PERSOON>
+Voorbeeld van ABCD. Hendrix.;Voorbeeld van <PERSOON>. ;4 initials (initials with no spacing, and end with a dot) + family name;<PERSOON>
+Voorbeeld van A.B.C.D.E. Hendrix. ;Voorbeeld van <PERSOON>. ;5 initials (separated by dots and end with a dot) + family name;<PERSOON>
+Voorbeeld van A. B. C. D. E. Hendrix.;Voorbeeld van <PERSOON>. ;5 initials (separated by dots and whitespace, and end with dot) + family name;<PERSOON>
+Voorbeeld van A B C D E Hendrix.;Voorbeeld van <PERSOON>. ;5 initials (separated by whitespace) + family name;<PERSOON>
+Voorbeeld van ABCDE Hendrix.;Voorbeeld van <PERSOON>. ;5 initials (initials with no spacing) + family name;<PERSOON>
+Typisch dig IV. Zie rapport.;Typisch dig IV. Zie rapport.;Exception: ignore capital letters with no spacing preceded by words in the intials whitelist;None
+Voorbeeld van ABCDE. Hendrix.;Voorbeeld van <PERSOON>. ;5 initials (initials with no spacing, and end with a dot) + family name;<PERSOON>
+Voorbeeld van dr.h.c. A. Hendrix.;Voorbeeld van <PERSOON>. ;Title (separated by dots and end with a dot) + initial + family name;<PERSOON>
+Voorbeeld van dr. h. c. A. Hendrix.;Voorbeeld van <PERSOON>. ;Title (separated by dots and whitespace, and end with dot) + initial + family name;<PERSOON>
+Voorbeeld van dr h c A. Hendrix.;Voorbeeld van <PERSOON>. ;Title (separated by whitespace) + initial + family name;<PERSOON>
+Voorbeeld van dhr. dr. ir. A. Hendrix radioloog.;Voorbeeld van <PERSOON>. ;3 titles + initials + family name + title;<PERSOON>
+Voorbeeld van dhr. dr. ir. A. Hendrix, radioloog.;Voorbeeld van <PERSOON>. ;3 titles + initials + family name + comma + title;<PERSOON>
+Voorbeeld van dhr. dr. Ir. A. Hendrix.;Voorbeeld van <PERSOON>. ;3 titles + initials + family name;<PERSOON>
+Voorbeeld van dhr. dr. Ir. Hendrix A. ;Voorbeeld van <PERSOON> ;3 titles + family name + initials;<PERSOON>
+Voorbeeld van dhr. dr. Ir. Hendrix, A. ;Voorbeeld van <PERSOON> ;3 titles + family name + comma + initials;<PERSOON>
+Voorbeeld van dhr. prof. dr. ir. Hendrix.;Voorbeeld van <PERSOON>. ;4 titles + family name;<PERSOON>
+Voorbeeld van dr. ir. A. Hendrix radioloog.;Voorbeeld van <PERSOON>. ;2 titles + initials + family name + title;<PERSOON>
+Voorbeeld van dr. ir. A. Hendrix, radioloog.;Voorbeeld van <PERSOON>. ;2 titles + initials + family name + comma + title;<PERSOON>
+Voorbeeld van dr. ir. A. Hendrix.;Voorbeeld van <PERSOON>. ;2 titles + initials + family name;<PERSOON>
+Voorbeeld van dhr. dr. ir. Hendrix.;Voorbeeld van <PERSOON>. ;3 titles + family name;<PERSOON>
+Voorbeeld van dhr. dr. Hendrix A.;Voorbeeld van <PERSOON> ;2 titles + family name + initials;<PERSOON>
+Voorbeeld van dhr. dr. Hendrix, A.;Voorbeeld van <PERSOON> ;2 titles + family name + comma + initials;<PERSOON>
+Voorbeeld van dr. ir. Hendrix radioloog.;Voorbeeld van <PERSOON>. ;2 titles + family name + title;<PERSOON>
+Voorbeeld van dr. ir. Hendrix, radioloog.;Voorbeeld van <PERSOON>. ;2 titles + family name + comma + title;<PERSOON>
+Voorbeeld van dr. Hendrix A. radioloog. ;Voorbeeld van <PERSOON>. ;title + family name + initials + title;<PERSOON>
+Voorbeeld van dr. Hendrix, A. radioloog. ;Voorbeeld van <PERSOON>. ;title + family name + comma + initials + title;<PERSOON>
+Voorbeeld van dr. A. Hendrix.;Voorbeeld van <PERSOON>. ;title + initials + family name;<PERSOON>
+Voorbeeld van dr. A., Hendrix.;Voorbeeld van <PERSOON>. ;title + initials + comma + family name;<PERSOON>
+Voorbeeld van dr. ir. Hendrix.;Voorbeeld van <PERSOON>. ;2 titles + family name;<PERSOON>
+Voorbeeld van dr. Hendrix A.;Voorbeeld van <PERSOON> ;title + family name + initials;<PERSOON>
+Voorbeeld van dr. Hendrix, A. ;Voorbeeld van <PERSOON> ;title + family name + comma + initials;<PERSOON>
+Voorbeeld van A. Hendrix radioloog. ;Voorbeeld van <PERSOON>. ;initials + family name + title;<PERSOON>
+Voorbeeld van A. Hendrix, radioloog. ;Voorbeeld van <PERSOON>. ;initials + family name + comma + title;<PERSOON>
+Voorbeeld van dr. Hendrix radioloog. ;Voorbeeld van <PERSOON>. ;title + family name + title;<PERSOON>
+Voorbeeld van dr. Hendrix, radioloog. ;Voorbeeld van <PERSOON>. ;title + family name + comma + title;<PERSOON>
+Voorbeeld van Ward Hendrix radioloog.;Voorbeeld van <PERSOON>. ;first name + family name + title;<PERSOON>
+Voorbeeld van Ward Hendrix, radioloog.;Voorbeeld van <PERSOON>. ;first name + family name + comma + title;<PERSOON>
+Voorbeeld van dr. Ward Hendrix.;Voorbeeld van <PERSOON>. ;title + first name + family name;<PERSOON>
+Voorbeeld van A. Hendrix. ;Voorbeeld van <PERSOON>. ;initials + family name;<PERSOON>
+Voorbeeld van A., Hendrix. ;Voorbeeld van <PERSOON>. ;initials + comma + family name;<PERSOON>
+Voorbeeld van dr. Hendrix. ;Voorbeeld van <PERSOON>. ;title + family name;<PERSOON>
+Voorbeeld van dr., Hendrix. ;Voorbeeld van <PERSOON>. ;title + comma + family name;<PERSOON>
+Besproken met Hendrix.;Besproken met <PERSOON>. ;cue + family name;<PERSOON>
+Voorbeeld van Hendrix radioloog. ;Voorbeeld van <PERSOON>. ;family name + title;<PERSOON>
+Voorbeeld van Hendrix, radioloog. ;Voorbeeld van <PERSOON>. ;family name + comma + title;<PERSOON>
+Voorbeeld van Hendrix (radioloog). ;Voorbeeld van <PERSOON>. ;family name + comma + (title);<PERSOON>
+Voorbeeld van Hendrix A. ;Voorbeeld van <PERSOON> ;family name + initials;<PERSOON>
+Voorbeeld van Hendrix, A. ;Voorbeeld van <PERSOON> ;family name + comma + initials;<PERSOON>
+Voorbeeld van Ward Hendrix. ;Voorbeeld van <PERSOON>. ;first name + family name;<PERSOON>
+Voorbeeld van (Ward) Hendrix. ; Voorbeeld van <PERSOON>. ;first name within parentheses + family name;<PERSOON>
+Voorbeeld van Ward (Hendrix). ; Voorbeeld van <PERSOON>. ;first name + family name within parentheses;<PERSOON>
+Voorbeeld van Hendrix, Ward. ;Voorbeeld van <PERSOON>. ;family name + comma + first name;<PERSOON>
+Voorbeeld van dhr. dr. ir. A. Kleine radioloog.;Voorbeeld van <PERSOON>. ;3 titles + initials + whitelisted whitelisted family name + title;<PERSOON>
+Voorbeeld van dhr. dr. ir. A. Kleine, radioloog.;Voorbeeld van <PERSOON>. ;3 titles + initials + whitelisted family name + comma + title;<PERSOON>
+Voorbeeld van dhr. dr. Ir. A. Kleine.;Voorbeeld van <PERSOON>. ;3 titles + initials + whitelisted family name;<PERSOON>
+Voorbeeld van dhr. dr. Ir. Kleine A. ;Voorbeeld van <PERSOON> ;3 titles + whitelisted family name + initials;<PERSOON>
+Voorbeeld van dhr. dr. Ir. Kleine, A. ;Voorbeeld van <PERSOON> ;3 titles + whitelisted family name + comma + initials;<PERSOON>
+Voorbeeld van dhr. prof. dr. ir. Kleine.;Voorbeeld van <PERSOON>. ;4 titles + whitelisted family name;<PERSOON>
+Voorbeeld van dr. ir. A. Kleine radioloog.;Voorbeeld van <PERSOON>. ;2 titles + initials + whitelisted family name + title;<PERSOON>
+Voorbeeld van dr. ir. A. Kleine, radioloog.;Voorbeeld van <PERSOON>. ;2 titles + initials + whitelisted family name + comma + title;<PERSOON>
+Voorbeeld van dr. ir. A. Kleine.;Voorbeeld van <PERSOON>. ;2 titles + initials + whitelisted family name;<PERSOON>
+Voorbeeld van dhr. dr. ir. Kleine.;Voorbeeld van <PERSOON>. ;3 titles + whitelisted family name;<PERSOON>
+Voorbeeld van dhr. dr. Kleine A.;Voorbeeld van <PERSOON> ;2 titles + whitelisted family name + initials;<PERSOON>
+Voorbeeld van dhr. dr. Kleine, A.;Voorbeeld van <PERSOON> ;2 titles + whitelisted family name + comma + initials;<PERSOON>
+Voorbeeld van dr. ir. Kleine radioloog.;Voorbeeld van <PERSOON>. ;2 titles + whitelisted family name + title;<PERSOON>
+Voorbeeld van dr. ir. Kleine, radioloog.;Voorbeeld van <PERSOON>. ;2 titles + whitelisted family name + comma + title;<PERSOON>
+Voorbeeld van dr. Kleine A. radioloog. ;Voorbeeld van <PERSOON>. ;title + whitelisted family name + initials + title;<PERSOON>
+Voorbeeld van dr. Kleine, A. radioloog. ;Voorbeeld van <PERSOON>. ;title + whitelisted family name + comma + initials + title;<PERSOON>
+Voorbeeld van dr. A. Kleine.;Voorbeeld van <PERSOON>. ;title + initials + whitelisted family name;<PERSOON>
+Voorbeeld van dr. A., Kleine.;Voorbeeld van <PERSOON>. ;title + initials + comma + whitelisted family name;<PERSOON>
+Voorbeeld van dr. ir. Kleine.;Voorbeeld van <PERSOON>. ;2 titles + whitelisted family name;<PERSOON>
+Voorbeeld van dr. Kleine A.;Voorbeeld van <PERSOON> ;title + whitelisted family name + initials;<PERSOON>
+Voorbeeld van dr. Kleine, A. ;Voorbeeld van <PERSOON> ;title + whitelisted family name + comma + initials;<PERSOON>
+Voorbeeld van A. Kleine radioloog. ;Voorbeeld van <PERSOON>. ;initials + whitelisted family name + title;<PERSOON>
+Voorbeeld van A. Kleine, radioloog. ;Voorbeeld van <PERSOON>. ;initials + whitelisted family name + comma + title;<PERSOON>
+Voorbeeld van dr. Kleine radioloog. ;Voorbeeld van <PERSOON>. ;title + whitelisted family name + title;<PERSOON>
+Voorbeeld van dr. Kleine, radioloog. ;Voorbeeld van <PERSOON>. ;title + whitelisted family name + comma + title;<PERSOON>
+Voorbeeld van Ward Kleine radioloog.;Voorbeeld van <PERSOON>. ;first name + whitelisted family name + title;<PERSOON>
+Voorbeeld van Ward Kleine, radioloog.;Voorbeeld van <PERSOON>. ;first name + whitelisted family name + comma + title;<PERSOON>
+Voorbeeld van dr. Ward Kleine.;Voorbeeld van <PERSOON>. ;title + first name + whitelisted family name;<PERSOON>
+Voorbeeld van dr. Kleine. ;Voorbeeld van <PERSOON>. ;title + whitelisted family name;<PERSOON>
+Voorbeeld van dr., Kleine. ;Voorbeeld van <PERSOON>. ;title + comma + whitelisted family name;<PERSOON>
+Besproken met Kleine.;Besproken met <PERSOON>. ;cue + whitelisted family name;<PERSOON>
+Voorbeeld van Kleine, radioloog. ;Voorbeeld van <PERSOON>. ;whitelisted family name + comma + title;<PERSOON>
+Voorbeeld van A. Abdelrahman Ahmed Mohamed Abdel, Rady.;Voorbeeld van <PERSOON>. ;initial with 5 word family name combination (when a comma is placed after the fourth word);<PERSOON>
+Voorbeeld van A. Abdelrahman Ahmed Mohamed, Abdel Rady.;Voorbeeld van <PERSOON>. ;initial with 5 word family name combination (when a comma is placed after the third word);<PERSOON>
+Voorbeeld van A. Abdelrahman Ahmed, Mohamed Abdel Rady.;Voorbeeld van <PERSOON>. ;initial with 5 word family name combination (when a comma is placed after the second word);<PERSOON>
+Voorbeeld van A. Abdelrahman Ahmed Mohamed Abdel Rady.;Voorbeeld van <PERSOON>. ;initial with 5 word family name combination (when no comma is placed at all);<PERSOON>
+Voorbeeld van A. Abdelrahman Ahmed Mohamed Abdel Rady-Abdoel.;Voorbeeld van <PERSOON>. ;initial with 5 word family name combination (with a hyphen);<PERSOON>
+Voorbeeld van A. Abadia y van, Breemen.;Voorbeeld van <PERSOON>. ;initial with 4 word family name combination (when a comma is placed after the third word);<PERSOON>
+Voorbeeld van A. Abadia y, van Breemen.;Voorbeeld van <PERSOON>. ;initial with 4 word family name combination (when a comma is placed after the second word);<PERSOON>
+Voorbeeld van A. Abadia y van Breemen.;Voorbeeld van <PERSOON>. ;initial with 4 word family name combination (when no comma is placed at all);<PERSOON>
+Voorbeeld van A. Abadia y van Breemen-Abdoel.;Voorbeeld van <PERSOON>. ;initial with 4 word family name combination (with a hyphen);<PERSOON>
+Voorbeeld van A. Aayat Fehmida, Ali.;Voorbeeld van <PERSOON>. ;initial with 3 word family name combination (when a comma is placed after the second word);<PERSOON>
+Voorbeeld van A. Aayat Fehmida Ali.;Voorbeeld van <PERSOON>. ;initial with 3 word family name combination (when no comma is placed at all);<PERSOON>
+Voorbeeld van A. Aayat Fehmida Ali-Abdoel.;Voorbeeld van <PERSOON>. ;initial with 3 word family name combination (with a hyphen);<PERSOON>
+Voorbeeld van A. El, Aazouzi.;Voorbeeld van <PERSOON>. ;initial with 2 word family name combination (when a comma is placed after the first word);<PERSOON>
+Voorbeeld van A. El Aazouzi.;Voorbeeld van <PERSOON>. ;initial with 2 word family name combination (when no comma is placed at all);<PERSOON>
+Voorbeeld van A. El Aazouzi-Abdoel.;Voorbeeld van <PERSOON>. ;initial with 2 word family name combination (with a hyphen);<PERSOON>
+Voorbeeld van A. Aasted-Madsen.;Voorbeeld van <PERSOON>. ;Initial with single word family name (with a hyphen);<PERSOON>
+Voorbeeld van A. Aasted/Madsen.;Voorbeeld van <PERSOON>. ;Initial with single word family name (with a dash);<PERSOON>
+Gemaakt op di 7 feb 2017.;Gemaakt op <DATUM>.;day of the week (abbreviation) + day of the month (max 2 digits) + month (abbreviation) + year (4 digits);<DATUM>
+Gemaakt op dinsdag 7 februari 2017. ;Gemaakt op <DATUM>.;day of the week + day of the month (max 2 digits) + month + year (4 digits);<DATUM>
+Gemaakt op 7 feb. 2017. ;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month (abbreviation plus dot) + year (4 digits);<DATUM>
+Gemaakt op 13 februari 2017.;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month + year (4 digits);<DATUM>
+Gemaakt op dinsdag 7 februari.;Gemaakt op <DATUM>.;day of the week + day of the month (max 2 digits) + month;<DATUM>
+Gemaakt op 13 augustus 02.;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month + year (2 digits);<DATUM>
+Gemaakt op 13 aug. 02. ;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month (abbrevation plus dot) + year (2 digits);<DATUM>
+Gemaakt op 5 2 2003. ;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month (max 2 digits) + year (4 digits), separated by whitespace;<DATUM>
+Gemaakt op 31. 10. 02. ;Gemaakt op <DATUM>;day of the month (max 2 digits) + month (max 2 digits) + year (2 digits), separated by dot plus whitespace ;<DATUM>
+Gemaakt op 24/05/2008.;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month (max 2 digits) + year (4 digits), separated by slashes;<DATUM>
+Gemaakt op 24-05-2008.;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month (max 2 digits) + year (4 digits), separated by hyphens;<DATUM>
+Gemaakt op 24.05.2008.;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month (max 2 digits) + year (4 digits), separated by dots;<DATUM>
+Gemaakt op 25-05-18.;Gemaakt op <DATUM>.; day of the month (max 2 digits) + month (max 2 digits) + year (2 digits), separated by hyphens;<DATUM>
+Gemaakt op 25-5-18.;Gemaakt op <DATUM>.; day of the month (max 2 digits) + month (1 digit) + year (2 digits), separated by hyphens;<DATUM>
+Gemaakt op 2018-05-25.;Gemaakt op <DATUM>.; year (4 digits) + month (max 2 digits) + day of the month (max 2 digits), separated by hyphens or slashes;<DATUM>
+Gemaakt op 25/05/18.;Gemaakt op <DATUM>.; day of the month (max 2 digits) + month (max 2 digits) + year (2 digits), separated by slashes;<DATUM>
+Gemaakt op 24-05. ;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month (max 2 digits), separated by hyphens;<DATUM>
+Gemaakt op 24/05.;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month (max 2 digits), separated by slashes;<DATUM>
+Gemaakt op 12-nov-08. ;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month (abbreviation) + year (2 digits), separated by hyphens;<DATUM>
+Gemaakt op 12-november-08. ;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month + year (2 digits), separated by hyphens;<DATUM>
+Gemaakt in 2019. ;Gemaakt in <DATUM>.;year (4 digits);<DATUM>
+Gemaakt in feb 2017. ;Gemaakt in <DATUM>.;month (abbreviation) + year (4 digits);<DATUM>
+Gemaakt in februari 2017.;Gemaakt in <DATUM>.;month + year (4 digits);<DATUM>
+Gemaakt op 7 februari. ;Gemaakt op <DATUM>.;day of the month (max 2 digits) + month;<DATUM>
+Gemaakt op 7 feb. ;Gemaakt op <DATUM>;day of the month (max 2 digits) + month (abbreviation);<DATUM>
+Botleeftijd 11-12 jaar.;Botleeftijd 11-12 jaar.;exception: numeric dates with 2 digits, separated by slashes or hypthens, preceded by exceptions;None
+Gemaakt op 15u15. ;Gemaakt op <TIJD>. ;hour (2 digits) + u + minutes (2 digits);<TIJD>
+Gemaakt op 9u15. ;Gemaakt op <TIJD>. ;hour (1 digit) + u + minutes (2 digits);<TIJD>
+Gemaakt op 15:15. ;Gemaakt op <TIJD>. ;hour (2 digits) + colon + minutes (2 digits);<TIJD>
+Gemaakt op 15:15 uur. ;Gemaakt op <TIJD>. ;hour (2 digits) + colon + minutes (2 digits) + uur;<TIJD>
+Gemaakt op 15.15. ;Gemaakt op <TIJD>. ;hour (2 digits) + dot + minutes (2 digits) ;<TIJD>
+Gemaakt op 15 15 uur. ;Gemaakt op <TIJD>. ;hour (2 digits) + minutes (2 digits) + uur, separated by whitespace;<TIJD>
+Gemaakt op 15:15:00. ;Gemaakt op <TIJD>. ;hour (2 digits) + colon + minutes (2 digits) + colon + seconds (2 digits);<TIJD>
+Gemaakt op 15.15.00. ;Gemaakt op <TIJD>. ;hour (2 digits) + dot + minutes (2 digits) + dot + seconds (2 digits);<TIJD>
+Gemaakt op 15 15 00. ;Gemaakt op <TIJD>. ;hour (2 digits) + minutes (2 digits) + seconds (2 digits), separated by whitespace;<TIJD>
+Gemaakt op 15 uur. ;Gemaakt op <TIJD>. ;hour (2 digits) + uur;<TIJD>
+Gemaakt op 1900 uur. ;Gemaakt op <TIJD>. ;hour (4 digits) + uur;<TIJD>
+Zie patientnummer 7124097.;Zie patientnummer <PATIENTNUMMER>.;7 digits;<PATIENTNUMMER>
+Zie z-nummer Z326708. ;Zie z-nummer <ZNUMMER>. ;z + 6 digits;<ZNUMMER>
+Bereikbaar op 54886. ;Bereikbaar op <TELEFOONNUMMER>.;5 digits;<TELEFOONNUMMER>
+Dienstdoende radioloog op SEIN 3611.  ;Dienstdoende radioloog op <TELEFOONNUMMER>.  ;sein + 4 digits;<TELEFOONNUMMER>
+Dienstdoende radioloog op SEIN * 3611.  ;Dienstdoende radioloog op <TELEFOONNUMMER>.  ;sein + asterisk + 4 digits, separted by whitespace;<TELEFOONNUMMER>
+Dienstdoende radioloog op SEIN *3611.  ;Dienstdoende radioloog op <TELEFOONNUMMER>.  ;sein + asterisk + 4 digits, asterisk attached to digits;<TELEFOONNUMMER>
+Dienstdoende radioloog op zijn 3611.  ;Dienstdoende radioloog op <TELEFOONNUMMER>.  ;zijn/haar + 4 digits;<TELEFOONNUMMER>
+Dienstdoende radioloog op nummer 3611.  ;Dienstdoende radioloog op <TELEFOONNUMMER>.  ;nummer + 4 digits;<TELEFOONNUMMER>
+Zie T 14-15616. ;Zie <RAPPORT_ID>. ;replace report ID in pathology reports;<RAPPORT_ID>
+Zie T 14 15616. ;Zie <RAPPORT_ID>. ;replace report ID in pathology reports, no hyphen;<RAPPORT_ID>
+Voorbeeld van dr. vd Heijden.; Voorbeeld van <PERSOON>.;Familynames with the vd abbreviation (=van der);<PERSOON>
+Voorbeeld van dr. vd Heijning.; Voorbeeld van <PERSOON>.;Familynames with the vdabbreviation (=van den);<PERSOON>
+Voorbeeld van dr. vd Plasse.; Voorbeeld van <PERSOON>.;Familynames with the vd abbreviation (=van de);<PERSOON>
+Voorbeeld van collega v Esschoten.;Voorbeeld van <PERSOON>.;Familynames with the v abbreviation (=van);<PERSOON>
+Voorbeeld van collega v. Esschoten.;Voorbeeld van <PERSOON>.;Familynames with the v abbreviation with dot (=van);<PERSOON>
+Voorbeeld van dr. v/d Plasse.;Voorbeeld van <PERSOON>.;Familynames with the v/d abbreviation (=van de);<PERSOON>
+Vergeleken met onderzoek van 2018 en die van 24/05/2018.;Vergeleken met onderzoek van <DATUM> en die van <DATUM>.;Two consequent dates, the first one (year) a subset of the second one (date with slashes).;<DATUM>
+Vergeleken met onderzoek van 2018 en die van 24-05-2018.;Vergeleken met onderzoek van <DATUM> en die van <DATUM>.;Two consequent dates, the first one (year) a subset of the second one (date with hyphens).;<DATUM>
+Vergeleken met onderzoek van 24-05-2018 en die van 24-05-2018.;Vergeleken met onderzoek van <DATUM> en die van <DATUM>.;Two consequent dates with the same pattern.;<DATUM>
+Voorbeeld van A.B.C. Hendrix en A.B.C. Hendrix.;Voorbeeld van <PERSOON> en <PERSOON>.;Two consequent names with initials separated with dots.;<PERSOON>
+Voorbeeld van ABC. Hendrix en ABC. Hendrix.;Voorbeeld van <PERSOON> en <PERSOON>.;Two consequent names with initials without delimiters.;<PERSOON>
+De patient komt uit Nijmegen.;De patient komt uit <PLAATS>.;Dutch city name preceded by 'uit'.;<PLAATS>
+De patient woont in Nijmegen.;De patient woont in <PLAATS>.;Dutch city name preceded by 'in'.;<PLAATS>
+De patient komt van Nijmegen.;De patient komt van <PLAATS>.;Dutch city name preceded by 'van'.;<PLAATS>
+De patient gaat naar Nijmegen.;De patient gaat naar <PLAATS>.;Dutch city name preceded by 'naar'.;<PLAATS>
+De patient kwam vanuit Nijmegen naar Amsterdam.;De patient kwam vanuit <PLAATS> naar <PLAATS>.;Dutch city name preceded by 'vanuit'.;<PLAATS>
+Ondertekend te Nijmegen.;Ondertekend te <PLAATS>.;Dutch city name preceded by 'te'.;<PLAATS>
+Longbeeld? Verslag: AP IC thoraxopname.;Longbeeld? Verslag: AP IC thoraxopname.;Ignore whitelisted abbreviation followed by potential family name.;None
+Thorax AP. Goede inspiratiestand.;Thorax AP. Goede inspiratiestand.;Ignore whitelisted abbreviation with dot followed by potential family name.;None
+Supervisie dokter Heystraten.;Supervisie <PERSOON>.;Misspelled person name (cue + title + letters).;<PERSOON>
+Zie studie van januari.;Zie studie van <DATUM>.;Month.;<DATUM>
+In jan. vond de operatie plaats.;In <DATUM> vond de operatie plaats.;Month abbreviation with dot.;<DATUM>
+In jan vond de operatie plaats.;In <DATUM> vond de operatie plaats.;Month abbreviation without dot.;<DATUM>
+Einde verslag. Van Amerongen Autorisatiedatum:;Einde verslag. <PERSOON> Autorisatiedatum:;Family name followed by one cue without dot.;<PERSOON>
+Einde verslag. Curiel. Autorisatiedatum:;Einde verslag. <PERSOON>. Autorisatiedatum:;Family name followed by one cue with dot.;<PERSOON>

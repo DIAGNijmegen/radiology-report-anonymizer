@@ -1,0 +1,109 @@
+{
+    "negative_lookaheads": {
+        "dates": [
+            "[0-9]{1}\\)",
+            "[0-9]{2}\\)",
+            "[0-9]{1},",
+            "[0-9]{2},",
+            "[0-9]{1}\\.",
+            "[0-9]{2}\\.",
+            "cm",
+            "mm",
+            "[0-9]{1} mm",
+            "[0-9]{2} mm",
+            "[0-9]{1}-"
+        ],
+        "times": [
+            "[0-9]{1}\\)",
+            "[0-9]{2}\\)",
+            "[0-9]{1}-",
+            "[0-9]{2}-",
+            "[0-9]{1},",
+            "[0-9]{2},",
+            "[0-9]{1}\\.",
+            "[0-9]{2}\\.",
+            "mm",
+            "cm",
+            "[0-9]{1} mm",
+            "[0-9]{2} mm"
+        ]
+    },
+    "negative_lookbehinds": {
+        "dates": [
+            "station",
+            "level",
+            "serie",
+            "ima",
+            "segment",
+            "[ ][0-9]{1}",
+            "[ ][0-9]{2}",
+            "leeftijd",
+            "mm",
+            "costa",
+            "corads"
+        ],
+        "times": [
+            "station",
+            "level",
+            "serie",
+            "ima",
+            "segment",
+            "[ ][0-9]{1}",
+            "[ ][0-9]{2}",
+            "leeftijd",
+            "mm",
+            "costa",
+            "corads"
+        ]
+    },
+    "positive_lookaheads": {
+        "person_names": [
+            "autorisatiedatum"
+        ]
+    },
+    "positive_lookbehinds": {
+        "locations": [
+            "uit",
+            "in",
+            "van",
+            "naar",
+            "vanuit",
+            "te"
+        ],
+        "person_names": [
+            "besproken met",
+            "besproken door",
+            "gemaakt door",
+            "beoordeeld door",
+            "medebeoordeeld door",
+            "geautoriseerd door",
+            "supervisie",
+            "supervisie profiel",
+            "supervisie nog",
+            "supervisie door",
+            "doorgebeld door",
+            "medebeoordeeld",
+            "mede verslagen door",
+            "dienstdoende",
+            "aanvrager",
+            "reading door",
+            "verslag van",
+            "vraagsteller",
+            "gedicteerd door",
+            "dicteerder",
+            "autorisator",
+            "supervisor",
+            "verslaglegging accoord"
+        ],
+        "phone_numbers": [
+            "sein",
+            "seinnummer",
+            "pieper",
+            "tel",
+            "telefoonnummer",
+            "zijn",
+            "haar",
+            "nummer"
+        ]
+    }
+}
